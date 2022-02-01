@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">DeVera_MyFirstApp</string>
+    <string name="Elise">HELLO ICT!</string>
+    <string name="Andrea">Click Here for Amazon Delivery</string>
+
 </resources>

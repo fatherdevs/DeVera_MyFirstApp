@@ -22,10 +22,30 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="318dp"
+        android:layout_width="378dp"
         android:layout_height="750dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526"
         app:srcCompat="@drawable/wake_up_times_of_entrepreneurs_jeff_bezos_face_person_human_head_transparent_png_821921"
-        tools:layout_editor_absoluteX="36dp"
-        tools:layout_editor_absoluteY="-373dp" />
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="548dp"
+        android:layout_height="124dp"
+        android:text="@string/Elise"
+        android:textSize="20pt"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/Andrea"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="41dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
